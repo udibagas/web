@@ -22,3 +22,5 @@ let isMarried = true;
 let pi = 3.14;
 console.log(pi);
 pi = 3.14159; // error: Assignment to constant variable.
+
+const namaDepan = "Bagas";
