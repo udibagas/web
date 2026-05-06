@@ -10,8 +10,8 @@
 const numbers = [1, 3, 7, 8, 9, 11, 12, 15];
 
 // TODO: Use find method to get the first even number
-const firstEven = // Your code here
-  console.log("Question 1 - First Even Number:", firstEven);
+const firstEven = numbers.find((n) => n % 2 == 0);
+console.log("Question 1 - First Even Number:", firstEven);
 
 // ========================================
 // QUESTION 2: Find Student by Name
@@ -28,8 +28,8 @@ const students = [
 ];
 
 // TODO: Use find method to get the student named "Charlie"
-const charlie = // Your code here
-  console.log("Question 2 - Find Charlie:", charlie);
+const charlie = students.find((s) => s.name === "Charlie");
+console.log("Question 2 - Find Charlie:", charlie);
 
 // ========================================
 // QUESTION 3: Find Product by ID
@@ -48,8 +48,8 @@ const products = [
 const searchId = 3;
 
 // TODO: Use find method to get the product with id === searchId
-const foundProduct = // Your code here
-  console.log("Question 3 - Product with ID 3:", foundProduct);
+const foundProduct = products.find((p) => p.id === searchId);
+console.log("Question 3 - Product with ID 3:", foundProduct);
 
 // ========================================
 // BONUS CHALLENGE
@@ -58,4 +58,12 @@ const foundProduct = // Your code here
 // If found, print: "Found: [name] with score [score]"
 // If not found, print: "No student found"
 
-// const topStudentInClassA = // Your code here
+const topStudentInClassA = students.find((s) => s.score > 80 && s.class == "A");
+
+if (!topStudentInClassA) {
+  return console.log("No student found");
+}
+
+console.log(
+  `Found: ${topStudentInClassA.name} with score ${topStudentInClassA.score}`,
+);

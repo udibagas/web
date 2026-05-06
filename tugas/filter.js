@@ -10,8 +10,8 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // TODO: Use filter method to get only even numbers
-const evenNumbers = // Your code here
-  console.log("Question 1 - Even Numbers:", evenNumbers);
+const evenNumbers = numbers.filter((n) => n % 2 === 0);
+console.log("Question 1 - Even Numbers:", evenNumbers);
 
 // ========================================
 // QUESTION 2: Filter Students by Score
@@ -29,8 +29,8 @@ const students = [
 ];
 
 // TODO: Use filter method to get students with score >= 70
-const passingStudents = // Your code here
-  console.log("Question 2 - Passing Students:", passingStudents);
+const passingStudents = students.filter((s) => s.score >= 70);
+console.log("Question 2 - Passing Students:", passingStudents);
 
 // ========================================
 // QUESTION 3: Filter Products in Stock
@@ -50,11 +50,14 @@ const products = [
 ];
 
 // TODO: Use filter method to get products in stock with price <= 500000
-const affordableProducts = // Your code here
-  console.log("Question 3 - Affordable Products:", affordableProducts);
+const affordableProducts = products.filter(
+  (p) => p.inStock && p.price <= 500_000,
+);
+console.log("Question 3 - Affordable Products:", affordableProducts);
 
 // ========================================
 // BONUS CHALLENGE
 // ========================================
 // Combine filter with map to get only the names of passing students
-// const passingStudentNames = // Your code here
+const passingStudentNames = passingStudents.map((n) => n.name);
+console.log(passingStudentNames);

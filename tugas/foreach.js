@@ -12,6 +12,9 @@ const numbers = [10, 20, 30, 40, 50];
 
 console.log("Question 1 - Print Numbers with Index:");
 // TODO: Use forEach to print each number with its index
+numbers.forEach((n, i) => {
+  console.log(`Index ${i}: ${n}`);
+});
 
 // ========================================
 // QUESTION 2: Calculate Total Price
@@ -74,3 +77,10 @@ console.log("\nBonus - Filter with forEach:");
 // TODO: Use forEach to populate result array
 
 console.log("Result:", result);
+
+// method chaining
+const r = mixedNumbers
+  .filter((n) => n % 2 == 0 && n > 10)
+  .map((n) => n * n)
+  .join();
+console.log(r);

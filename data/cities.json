@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Jakarta",
+    "province": "Jakarta Special Capital Region",
+    "population": 10562088
+  },
+  { "name": "Surabaya", "province": "East Java", "population": 2875314 },
+  { "name": "Bandung", "province": "West Java", "population": 2443960 },
+  { "name": "Medan", "province": "North Sumatra", "population": 2229394 },
+  { "name": "Bekasi", "province": "West Java", "population": 2543675 },
+  { "name": "Depok", "province": "West Java", "population": 2050335 },
+  { "name": "Tangerang", "province": "Banten", "population": 1897247 },
+  { "name": "Semarang", "province": "Central Java", "population": 1653524 },
+  { "name": "Palembang", "province": "South Sumatra", "population": 1668235 },
+  { "name": "Makassar", "province": "South Sulawesi", "population": 1423877 },
+  { "name": "South Tangerang", "province": "Banten", "population": 1354203 },
+  { "name": "Batam", "province": "Riau Islands", "population": 1164062 },
+  { "name": "Bandar Lampung", "province": "Lampung", "population": 981571 },
+  { "name": "Bogor", "province": "West Java", "population": 1044648 },
+  { "name": "Pekanbaru", "province": "Riau", "population": 1034216 },
+  { "name": "Padang", "province": "West Sumatra", "population": 909040 },
+  { "name": "Malang", "province": "East Java", "population": 843810 },
+  {
+    "name": "Yogyakarta",
+    "province": "Special Region of Yogyakarta",
+    "population": 422732
+  },
+  { "name": "Denpasar", "province": "Bali", "population": 725315 },
+  {
+    "name": "Samarinda",
+    "province": "East Kalimantan",
+    "population": 827994
+  },
+  {
+    "name": "Pontianak",
+    "province": "West Kalimantan",
+    "population": 658685
+  },
+  {
+    "name": "Balikpapan",
+    "province": "East Kalimantan",
+    "population": 688318
+  },
+  { "name": "Manado", "province": "North Sulawesi", "population": 451916 },
+  {
+    "name": "Mataram",
+    "province": "West Nusa Tenggara",
+    "population": 429651
+  },
+  {
+    "name": "Kupang",
+    "province": "East Nusa Tenggara",
+    "population": 450993
+  },
+  { "name": "Ambon", "province": "Maluku", "population": 347288 },
+  { "name": "Jayapura", "province": "Papua", "population": 315872 },
+  { "name": "Ternate", "province": "North Maluku", "population": 203593 },
+  { "name": "Palu", "province": "Central Sulawesi", "population": 373218 },
+  {
+    "name": "Kendari",
+    "province": "Southeast Sulawesi",
+    "population": 345107
+  },
+  {
+    "name": "Banjarmasin",
+    "province": "South Kalimantan",
+    "population": 657663
+  },
+  {
+    "name": "Palangkaraya",
+    "province": "Central Kalimantan",
+    "population": 286706
+  },
+  { "name": "Sorong", "province": "Southwest Papua", "population": 284410 },
+  { "name": "Jambi", "province": "Jambi", "population": 606200 },
+  { "name": "Bengkulu", "province": "Bengkulu", "population": 372287 },
+  { "name": "Mamuju", "province": "West Sulawesi", "population": 123558 },
+  { "name": "Sofifi", "province": "North Maluku", "population": 36427 },
+  { "name": "Manokwari", "province": "West Papua", "population": 107325 },
+  {
+    "name": "Tanjung Pinang",
+    "province": "Riau Islands",
+    "population": 227663
+  },
+  { "name": "Tarakan", "province": "North Kalimantan", "population": 242786 },
+  {
+    "name": "Pangkal Pinang",
+    "province": "Bangka Belitung Islands",
+    "population": 218569
+  },
+  { "name": "Gorontalo", "province": "Gorontalo", "population": 198539 },
+  { "name": "Sabang", "province": "Aceh", "population": 41497 },
+  { "name": "Banda Aceh", "province": "Aceh", "population": 250757 }
+]

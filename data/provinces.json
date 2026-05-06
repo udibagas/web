@@ -1,0 +1,88 @@
+[
+  { "name": "Aceh", "capital": "Banda Aceh", "region": "Sumatra" },
+  { "name": "North Sumatra", "capital": "Medan", "region": "Sumatra" },
+  { "name": "West Sumatra", "capital": "Padang", "region": "Sumatra" },
+  { "name": "Riau", "capital": "Pekanbaru", "region": "Sumatra" },
+  {
+    "name": "Riau Islands",
+    "capital": "Tanjung Pinang",
+    "region": "Sumatra"
+  },
+  { "name": "Jambi", "capital": "Jambi", "region": "Sumatra" },
+  { "name": "Bengkulu", "capital": "Bengkulu", "region": "Sumatra" },
+  { "name": "South Sumatra", "capital": "Palembang", "region": "Sumatra" },
+  {
+    "name": "Bangka Belitung Islands",
+    "capital": "Pangkal Pinang",
+    "region": "Sumatra"
+  },
+  { "name": "Lampung", "capital": "Bandar Lampung", "region": "Sumatra" },
+  {
+    "name": "Jakarta Special Capital Region",
+    "capital": "Jakarta",
+    "region": "Java"
+  },
+  { "name": "Banten", "capital": "Serang", "region": "Java" },
+  { "name": "West Java", "capital": "Bandung", "region": "Java" },
+  { "name": "Central Java", "capital": "Semarang", "region": "Java" },
+  {
+    "name": "Special Region of Yogyakarta",
+    "capital": "Yogyakarta",
+    "region": "Java"
+  },
+  { "name": "East Java", "capital": "Surabaya", "region": "Java" },
+  { "name": "Bali", "capital": "Denpasar", "region": "Lesser Sunda Islands" },
+  {
+    "name": "West Nusa Tenggara",
+    "capital": "Mataram",
+    "region": "Lesser Sunda Islands"
+  },
+  {
+    "name": "East Nusa Tenggara",
+    "capital": "Kupang",
+    "region": "Lesser Sunda Islands"
+  },
+  {
+    "name": "West Kalimantan",
+    "capital": "Pontianak",
+    "region": "Kalimantan"
+  },
+  {
+    "name": "Central Kalimantan",
+    "capital": "Palangkaraya",
+    "region": "Kalimantan"
+  },
+  {
+    "name": "South Kalimantan",
+    "capital": "Banjarmasin",
+    "region": "Kalimantan"
+  },
+  {
+    "name": "East Kalimantan",
+    "capital": "Samarinda",
+    "region": "Kalimantan"
+  },
+  {
+    "name": "North Kalimantan",
+    "capital": "Tarakan",
+    "region": "Kalimantan"
+  },
+  { "name": "North Sulawesi", "capital": "Manado", "region": "Sulawesi" },
+  { "name": "Gorontalo", "capital": "Gorontalo", "region": "Sulawesi" },
+  { "name": "Central Sulawesi", "capital": "Palu", "region": "Sulawesi" },
+  { "name": "West Sulawesi", "capital": "Mamuju", "region": "Sulawesi" },
+  { "name": "South Sulawesi", "capital": "Makassar", "region": "Sulawesi" },
+  {
+    "name": "Southeast Sulawesi",
+    "capital": "Kendari",
+    "region": "Sulawesi"
+  },
+  { "name": "North Maluku", "capital": "Sofifi", "region": "Maluku Islands" },
+  { "name": "Maluku", "capital": "Ambon", "region": "Maluku Islands" },
+  { "name": "West Papua", "capital": "Manokwari", "region": "Papua" },
+  { "name": "Southwest Papua", "capital": "Sorong", "region": "Papua" },
+  { "name": "Central Papua", "capital": "Nabire", "region": "Papua" },
+  { "name": "Papua", "capital": "Jayapura", "region": "Papua" },
+  { "name": "Highland Papua", "capital": "Wamena", "region": "Papua" },
+  { "name": "South Papua", "capital": "Merauke", "region": "Papua" }
+]

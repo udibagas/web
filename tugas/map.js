@@ -10,8 +10,8 @@
 const numbers = [5, 10, 15, 20, 25, 30];
 
 // TODO: Use map method to double each number
-const doubledNumbers = // Your code here
-  console.log("Question 1 - Doubled Numbers:", doubledNumbers);
+const doubledNumbers = numbers.map((n) => n * 2);
+console.log("Question 1 - Doubled Numbers:", doubledNumbers);
 
 // ========================================
 // QUESTION 2: Extract Product Names
@@ -28,8 +28,8 @@ const products = [
 ];
 
 // TODO: Use map method to extract only the names
-const productNames = // Your code here
-  console.log("Question 2 - Product Names:", productNames);
+const productNames = products.map((p) => p.name);
+console.log("Question 2 - Product Names:", productNames);
 
 // ========================================
 // QUESTION 3: Add Discount to Products
@@ -47,8 +47,12 @@ const items = [
 ];
 
 // TODO: Use map method to create new objects with discount info
-const itemsWithDiscount = // Your code here
-  console.log("Question 3 - Items with Discount:", itemsWithDiscount);
+const itemsWithDiscount = items.map((i) => ({
+  ...i,
+  discountPrice: 0.1 * i.price,
+  discount: "10%",
+}));
+console.log("Question 3 - Items with Discount:", itemsWithDiscount);
 
 // ========================================
 // BONUS CHALLENGE
@@ -64,4 +68,14 @@ const students = [
   { name: "Diana", score: 55 },
 ];
 
-// const studentGrades = // Your code here
+const studentGrades = students.map((s) => {
+  let grade;
+
+  if (s.score < 60) grade = "F";
+  if (s.score >= 60) grade = "D";
+  if (s.score >= 70) grade = "C";
+  if (s.score >= 80) grade = "B";
+  if (s.score >= 90) grade = "A";
+
+  return { ...s, grade };
+});
