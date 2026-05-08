@@ -65,3 +65,10 @@ fs.readFile("./data/data-besar.zip", "utf-8", (err, data) => {
     });
   }
 });
+
+const cities = fs.readFileSync("./data/cities.json", "utf-8");
+const provinces = fs.readFileSync("./data/provinces.json", "utf-8");
+console.log(cities);
+console.log(provinces);
+
+// Promise (janji)
