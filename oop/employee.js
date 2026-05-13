@@ -5,6 +5,8 @@ class Employee {
   position;
   #baseSalary;
 
+  static availablePositions = ["Staff", "Manager"];
+
   constructor(name, position, baseSalary) {
     this.name = name;
     this.position = position;
@@ -20,8 +22,15 @@ class Employee {
     this.#baseSalary = newSalary;
   }
 
+  // instance method
   work() {
     console.log("Kerja kerja kerja");
+  }
+
+  static printPositions() {
+    this.availablePositions.forEach((x) => {
+      console.log(x);
+    });
   }
 }
 
@@ -44,3 +53,7 @@ class Manager extends Employee {
 
 const andi = new Manager("Andi", 20_000_000);
 console.log(andi.salary);
+andi.work();
+
+console.log(Employee.availablePositions);
+Employee.printPositions();

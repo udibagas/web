@@ -90,5 +90,5 @@ try {
 } catch (error) {
   // error = instance dari class Error
   // Error punya property message
-  console.log(error);
+  console.log(error.message);
 }
