@@ -116,7 +116,7 @@ class User {
       }
 
       data.splice(index, 1);
-      this.writeData(data);
+      await this.writeData(data);
       console.table(data);
     } catch (error) {
       console.error(error.message);
