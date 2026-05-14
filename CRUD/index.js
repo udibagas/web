@@ -13,14 +13,29 @@ switch (command) {
     }
     break;
 
-  // case "create":
-  //   break;
+  case "create":
+    // const name = process.argv[3];
+    // const email = process.argv[4];
+    // const status = process.argv[5];
 
-  // case "update":
-  //   break;
+    // destructuring for cleaner code
+    const [name, email, status] = process.argv.slice(3);
+    User.createUser(name, email, status);
+    break;
 
-  // case "delete":
-  //   break;
+  case "update":
+    {
+      const [id, key, value] = process.argv.slice(3);
+      User.updateUserById(id, key, value);
+    }
+    break;
+
+  case "delete":
+    {
+      const id = process.argv[3];
+      User.deleteUserById(id);
+    }
+    break;
 
   default:
     console.log("Available command:");
